@@ -55,7 +55,7 @@ C
 	  
 	  
 	  !Now, we must check if any error exists. To do so, we check the JRCD parameter.
-      !It is a return code (0 – no error, 1 – output request error or all components of the output request are zero).
+      !It is a return code (0 â€“ no error, 1 â€“ output request error or all components of the output request are zero).
 	  !If an error is detected, we must print the error along with the element number.
 	  if(JRCD.NE.0)then
         WRITE(6,*)'REQUEST ERROR IN USDFLD FOR ELEMENT NUMBER',NOEL, 
